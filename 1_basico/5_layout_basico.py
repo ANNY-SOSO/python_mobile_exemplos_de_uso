@@ -12,7 +12,7 @@ def main(page: ft.Page):
         "Organizando Elementos na Tela 📐",
         size=24,
         weight=ft.FontWeight.BOLD,
-        text_align=ft.TextAling.CENTER
+        text_align=ft.TextAlign.CENTER
     )
 
     # Criando uma linha horizontal com 3 botões
@@ -27,17 +27,17 @@ def main(page: ft.Page):
     )
 
     # Criando algumas caixas coloridas em coluna
-    caixal = ft.Container(
+    caixa1 = ft.Container(
         content=ft.Text("Caixa 1", color=ft.Colors.WHITE),
         bgcolor=ft.Colors.PURPLE,
-        widht=200,
+        width=200,
         height=50,
         alignment=ft.alignment.center,
         border_radius=5
     )
 
     caixa2 = ft.Container(
-        content=ft.Text("Caixa 2", color=ft.Colors.WHIE),
+        content=ft.Text("Caixa 2", color=ft.Colors.WHITE),
         bgcolor=ft.Colors.ORANGE,
         width=200,
         height=50,
@@ -62,7 +62,7 @@ def main(page: ft.Page):
             coluna_caixas,
             ft.Text("Layout organizado! 🎉", size=14, color=ft.Colors.GREEN)
         ],
-        horizontal_alignment=ft.CrossAxisAlignmen.CENTER,
+        horizontal_alignment=ft.CrossAxisAlignment.CENTER,
         spacing=25  # Espaço entre cada seção
     )
 
