@@ -130,7 +130,7 @@ def main(page: ft.Page):
     layout_principal = ft.Column([
         ft.Text("👤 Criador de Perfil", size=26, weight=ft.FontWeight.BOLD),
         ft.Text("Preencha seus dados para criar seu perfil personalizado!", 
-               size=14, color=ft.Colors.GREY_600, text_align=ft.TextAlign.CENTER),
+            size=14, color=ft.Colors.GREY_600, text_align=ft.TextAlign.CENTER),
         ft.Container(height=20),
         campo_nome,
         campo_idade,
